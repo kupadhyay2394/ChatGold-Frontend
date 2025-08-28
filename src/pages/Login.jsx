@@ -37,6 +37,8 @@ export default function Login() {
         onChange={handleChange}
       />
       <button type="submit">Login</button>
+      <button type="submit" onClick={navigate('/Signup')}>SignUp</button>
+
     </form>
   );
 }
