@@ -1,0 +1,19 @@
+
+@import "tailwindcss";
+/* Add this to your main CSS file */
+.dot-loader-wa {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #999;
+  animation: dot-loader-wa-anim 1s infinite linear;
+}
+
+@keyframes dot-loader-wa-anim {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(-4px); }
+  50%, 100% { transform: translateY(0); }
+}
+
+.delay-200 { animation-delay: 0.2s; }
+.delay-400 { animation-delay: 0.4s; }
