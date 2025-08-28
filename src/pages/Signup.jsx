@@ -45,6 +45,7 @@ export default function Signup() {
         onChange={handleChange}
       />
       <button type="submit">Signup</button>
+      <button type="button" onClick={() => navigate('/Login')}>Login</button>
     </form>
   );
 }
